@@ -4,7 +4,27 @@
 
 ## Como iniciarlo ?
 
-Primero de todo tendremos que tener instalado Python y las dependencias que se utilizaron (Intentare hacer un .exe)
+### - Primera forma:
+
+Solo tendremos que descargar el ejecutable y iniciarlo: [Descargar Instalador Rust Server Python](https://github.com/MrSCR98/Instalador-Rust-Server/releases/download/Ejecutable/rustserverinstall.exe)
+
+La primera vez lo más posible es que salte el antivirus.
+
+Si queréis crear el ejecutable vosotros mismos sera muy facil primero instalaremos pyinstaller, yo usé la version:
+
+```bash
+pip install pyinstaller==5.9.0
+```
+
+A continuación haremos la build:
+
+```bash
+pyinstaller --onefile --windowed rustserverinstall.py
+```
+
+### - Segunda forma:
+
+Tendremos que tener instalado Python y las dependencias que se utilizaron.
 
 Ejecutamos rustserverinstall.py con la terminal, pero primero iremos a la carpeta del archivo:
 
@@ -113,7 +133,7 @@ pip install flet requests
 
 ## COSAS PARA MEJORAR
 
-Crear ejecutable .exe para Windows.
+Poner foto al ejecutable .exe para Windows y hacer que no salte el antivirus?.
 
 Controlar los errores.
 
