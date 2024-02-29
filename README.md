@@ -70,7 +70,7 @@ Para ello hice un botón con una papelera que nos ayudará a borrar todos los ar
 
 ### COMO INICIAR EL SERVIDOR ?
 
-Si quieres poder iniciar el servidor, tendrás que crear un .bat que se crea a partir de un bloc de notas, pero dentro le tendrás que poner unos parámetros de lanzamiento. Para facilitar la tarea, ya hice un .bat INICIADOR SERVER.bat que contiene lo siguiente:
+Si quieres poder iniciar el servidor, tendrás que crear un .bat que se crea a partir de un bloc de notas, pero dentro le tendrás que poner unos parámetros de lanzamiento. Para facilitar la tarea, ya hice un .bat **INICIADOR SERVER.bat** que contiene lo siguiente:
 
 ```bash
 @echo off
