@@ -1,6 +1,6 @@
 # Instalador Rust Server Python ![Python](https://img.shields.io/badge/Lenguaje-Python-yellow.svg) ![RUST](https://img.shields.io/badge/Juego-RUST-orange.svg) ![SCR98](https://img.shields.io/badge/Creador-SCR98-ff69b4.svg)
 
- <img src="https://github.com/MrSCR98/Instalador-Rust-Server/blob/main/READMESRC/instaladorimg.jpg?raw=true" alt="Logo" width="800" />
+ <img src="https://github.com/MrSCR98/Instalador-Rust-Server/blob/main/README%20RECURSOS/ejemploinstalador.jpg?raw=true" alt="Logo" width="800" />
 
 ## Como iniciarlo ?
 
