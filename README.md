@@ -50,7 +50,44 @@ Para ello hice un botón con una papelera que nos ayudará a borrar todos los ar
 
 ### COMO INICIAR EL SERVIDOR ?
 
-Si quieres poder iniciar el servidor tendrás que crear un .bat que se crea a partir de un blog de notas, pero dentro le tendrás que poner unos parámetros de lanzamiento después la terminación de .text la cambias a .bat, talvez más adelante ponga un botón que haga un iniciador de servidor básico para empezar o lo ponga aquí como hacerlo.
+Si quieres poder iniciar el servidor, tendrás que crear un .bat que se crea a partir de un bloc de notas, pero dentro le tendrás que poner unos parámetros de lanzamiento. Para facilitar la tarea, ya hice un .bat INICIADOR SERVER.bat que contiene lo siguiente:
+
+```bash
+@echo off
+RustDedicated.exe -batchmode -nographics ^
++server.hostname "Nombre de servidor" ^
++server.description "Instalador-Rust-Server" ^
++server.headerimage "" ^
++server.url "" ^
++server.ip 0.0.0.0 ^
++server.port 28015 ^
++server.maxplayers 100 ^
++rcon.ip 0.0.0.0 ^
++rcon.port 28016 ^
++rcon.password "cambia#estañc0ntraseña" ^
++server.identity "default" ^
++server.level "Procedural Map" ^
++server.seed 5658512 +server.worldsize 4000 ^
++server.radiation "True" ^
++bradley.enabled "True" ^
++bradley.respawndelayminutes "60" ^
++bradley.respawndelayvariance "1" ^
++heli.lifetimeminutes "15" ^
++server.stability "True" ^
++decay.upkeep "True" ^
++decay.upkeep_heal_scale "1" ^
++decay.upkeep_inside_decay_scale "0.1" ^
++decay.upkeep_period_minutes "1440" ^
++rcon.web "True" ^
+-logfile "logfilename.log" ^
+```
+
+¿Dónde se pone? El archivo se tendrá que poner en la carpeta SERVER.
+Intenta cambiar la contraseña de rcon.password por otra privada:
+
+```bash
++rcon.password "cambia#estañc0ntraseña"
+```
 
 ## Requerimientos
 
